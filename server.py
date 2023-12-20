@@ -27,4 +27,4 @@ def receive_logs():
         return 'Error processing logs', 500
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=8000, allow_unsafe_werkzeug=True) 
+    socketio.run(app, debug=True, port=80, allow_unsafe_werkzeug=True)
